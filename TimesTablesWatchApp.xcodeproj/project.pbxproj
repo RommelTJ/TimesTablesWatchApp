@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7748DA541AC7CB52005AE622 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7748DA531AC7CB52005AE622 /* AppDelegate.swift */; };
+		7748DA561AC7CB52005AE622 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7748DA551AC7CB52005AE622 /* ViewController.swift */; };
+		7748DA591AC7CB52005AE622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7748DA571AC7CB52005AE622 /* Main.storyboard */; };
+		7748DA5B1AC7CB52005AE622 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7748DA5A1AC7CB52005AE622 /* Images.xcassets */; };
+		7748DA5E1AC7CB52005AE622 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7748DA5C1AC7CB52005AE622 /* LaunchScreen.xib */; };
+		7748DA6A1AC7CB52005AE622 /* TimesTablesWatchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7748DA691AC7CB52005AE622 /* TimesTablesWatchAppTests.swift */; };
+		7748DA7D1AC7CB5A005AE622 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7748DA7C1AC7CB5A005AE622 /* InterfaceController.swift */; };
+		7748DA7F1AC7CB5A005AE622 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7748DA7E1AC7CB5A005AE622 /* NotificationController.swift */; };
+		7748DA811AC7CB5A005AE622 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7748DA801AC7CB5A005AE622 /* Images.xcassets */; };
+		7748DA851AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 7748DA841AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit App.app */; };
+		7748DA8D1AC7CB5A005AE622 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7748DA8B1AC7CB5A005AE622 /* Interface.storyboard */; };
+		7748DA8F1AC7CB5A005AE622 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7748DA8E1AC7CB5A005AE622 /* Images.xcassets */; };
+		7748DA921AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7748DA771AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7748DA9B1AC7CC78005AE622 /* TimesTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7748DA9A1AC7CC78005AE622 /* TimesTableRowController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7748DA641AC7CB52005AE622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7748DA461AC7CB52005AE622 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7748DA4D1AC7CB52005AE622;
+			remoteInfo = TimesTablesWatchApp;
+		};
+		7748DA861AC7CB5A005AE622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7748DA461AC7CB52005AE622 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7748DA831AC7CB5A005AE622;
+			remoteInfo = "TimesTablesWatchApp WatchKit App";
+		};
+		7748DA901AC7CB5A005AE622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7748DA461AC7CB52005AE622 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7748DA761AC7CB5A005AE622;
+			remoteInfo = "TimesTablesWatchApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7748DA991AC7CB5A005AE622 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7748DA921AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7748DA4E1AC7CB52005AE622 /* TimesTablesWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimesTablesWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7748DA521AC7CB52005AE622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7748DA531AC7CB52005AE622 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7748DA551AC7CB52005AE622 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7748DA581AC7CB52005AE622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7748DA5A1AC7CB52005AE622 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7748DA5D1AC7CB52005AE622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7748DA631AC7CB52005AE622 /* TimesTablesWatchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimesTablesWatchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7748DA681AC7CB52005AE622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7748DA691AC7CB52005AE622 /* TimesTablesWatchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesTablesWatchAppTests.swift; sourceTree = "<group>"; };
+		7748DA771AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TimesTablesWatchApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7748DA7A1AC7CB5A005AE622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7748DA7B1AC7CB5A005AE622 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7748DA7C1AC7CB5A005AE622 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		7748DA7E1AC7CB5A005AE622 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		7748DA801AC7CB5A005AE622 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7748DA841AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimesTablesWatchApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7748DA8A1AC7CB5A005AE622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7748DA8C1AC7CB5A005AE622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7748DA8E1AC7CB5A005AE622 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7748DA9A1AC7CC78005AE622 /* TimesTableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimesTableRowController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7748DA4B1AC7CB52005AE622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7748DA601AC7CB52005AE622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7748DA741AC7CB5A005AE622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7748DA451AC7CB52005AE622 = {
+			isa = PBXGroup;
+			children = (
+				7748DA501AC7CB52005AE622 /* TimesTablesWatchApp */,
+				7748DA661AC7CB52005AE622 /* TimesTablesWatchAppTests */,
+				7748DA781AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit Extension */,
+				7748DA881AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit App */,
+				7748DA4F1AC7CB52005AE622 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7748DA4F1AC7CB52005AE622 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7748DA4E1AC7CB52005AE622 /* TimesTablesWatchApp.app */,
+				7748DA631AC7CB52005AE622 /* TimesTablesWatchAppTests.xctest */,
+				7748DA771AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit Extension.appex */,
+				7748DA841AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7748DA501AC7CB52005AE622 /* TimesTablesWatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				7748DA531AC7CB52005AE622 /* AppDelegate.swift */,
+				7748DA551AC7CB52005AE622 /* ViewController.swift */,
+				7748DA571AC7CB52005AE622 /* Main.storyboard */,
+				7748DA5A1AC7CB52005AE622 /* Images.xcassets */,
+				7748DA5C1AC7CB52005AE622 /* LaunchScreen.xib */,
+				7748DA511AC7CB52005AE622 /* Supporting Files */,
+			);
+			path = TimesTablesWatchApp;
+			sourceTree = "<group>";
+		};
+		7748DA511AC7CB52005AE622 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7748DA521AC7CB52005AE622 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7748DA661AC7CB52005AE622 /* TimesTablesWatchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7748DA691AC7CB52005AE622 /* TimesTablesWatchAppTests.swift */,
+				7748DA671AC7CB52005AE622 /* Supporting Files */,
+			);
+			path = TimesTablesWatchAppTests;
+			sourceTree = "<group>";
+		};
+		7748DA671AC7CB52005AE622 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7748DA681AC7CB52005AE622 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7748DA781AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7748DA7C1AC7CB5A005AE622 /* InterfaceController.swift */,
+				7748DA7E1AC7CB5A005AE622 /* NotificationController.swift */,
+				7748DA801AC7CB5A005AE622 /* Images.xcassets */,
+				7748DA791AC7CB5A005AE622 /* Supporting Files */,
+				7748DA9A1AC7CC78005AE622 /* TimesTableRowController.swift */,
+			);
+			path = "TimesTablesWatchApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7748DA791AC7CB5A005AE622 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7748DA7A1AC7CB5A005AE622 /* Info.plist */,
+				7748DA7B1AC7CB5A005AE622 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7748DA881AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7748DA8B1AC7CB5A005AE622 /* Interface.storyboard */,
+				7748DA8E1AC7CB5A005AE622 /* Images.xcassets */,
+				7748DA891AC7CB5A005AE622 /* Supporting Files */,
+			);
+			path = "TimesTablesWatchApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		7748DA891AC7CB5A005AE622 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7748DA8A1AC7CB5A005AE622 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7748DA4D1AC7CB52005AE622 /* TimesTablesWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7748DA6D1AC7CB52005AE622 /* Build configuration list for PBXNativeTarget "TimesTablesWatchApp" */;
+			buildPhases = (
+				7748DA4A1AC7CB52005AE622 /* Sources */,
+				7748DA4B1AC7CB52005AE622 /* Frameworks */,
+				7748DA4C1AC7CB52005AE622 /* Resources */,
+				7748DA991AC7CB5A005AE622 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7748DA911AC7CB5A005AE622 /* PBXTargetDependency */,
+			);
+			name = TimesTablesWatchApp;
+			productName = TimesTablesWatchApp;
+			productReference = 7748DA4E1AC7CB52005AE622 /* TimesTablesWatchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7748DA621AC7CB52005AE622 /* TimesTablesWatchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7748DA701AC7CB52005AE622 /* Build configuration list for PBXNativeTarget "TimesTablesWatchAppTests" */;
+			buildPhases = (
+				7748DA5F1AC7CB52005AE622 /* Sources */,
+				7748DA601AC7CB52005AE622 /* Frameworks */,
+				7748DA611AC7CB52005AE622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7748DA651AC7CB52005AE622 /* PBXTargetDependency */,
+			);
+			name = TimesTablesWatchAppTests;
+			productName = TimesTablesWatchAppTests;
+			productReference = 7748DA631AC7CB52005AE622 /* TimesTablesWatchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7748DA761AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7748DA961AC7CB5A005AE622 /* Build configuration list for PBXNativeTarget "TimesTablesWatchApp WatchKit Extension" */;
+			buildPhases = (
+				7748DA731AC7CB5A005AE622 /* Sources */,
+				7748DA741AC7CB5A005AE622 /* Frameworks */,
+				7748DA751AC7CB5A005AE622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7748DA871AC7CB5A005AE622 /* PBXTargetDependency */,
+			);
+			name = "TimesTablesWatchApp WatchKit Extension";
+			productName = "TimesTablesWatchApp WatchKit Extension";
+			productReference = 7748DA771AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		7748DA831AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7748DA931AC7CB5A005AE622 /* Build configuration list for PBXNativeTarget "TimesTablesWatchApp WatchKit App" */;
+			buildPhases = (
+				7748DA821AC7CB5A005AE622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TimesTablesWatchApp WatchKit App";
+			productName = "TimesTablesWatchApp WatchKit App";
+			productReference = 7748DA841AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7748DA461AC7CB52005AE622 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Rommel Rico";
+				TargetAttributes = {
+					7748DA4D1AC7CB52005AE622 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7748DA621AC7CB52005AE622 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 7748DA4D1AC7CB52005AE622;
+					};
+					7748DA761AC7CB5A005AE622 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7748DA831AC7CB5A005AE622 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 7748DA491AC7CB52005AE622 /* Build configuration list for PBXProject "TimesTablesWatchApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7748DA451AC7CB52005AE622;
+			productRefGroup = 7748DA4F1AC7CB52005AE622 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7748DA4D1AC7CB52005AE622 /* TimesTablesWatchApp */,
+				7748DA621AC7CB52005AE622 /* TimesTablesWatchAppTests */,
+				7748DA761AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit Extension */,
+				7748DA831AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7748DA4C1AC7CB52005AE622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7748DA591AC7CB52005AE622 /* Main.storyboard in Resources */,
+				7748DA5E1AC7CB52005AE622 /* LaunchScreen.xib in Resources */,
+				7748DA5B1AC7CB52005AE622 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7748DA611AC7CB52005AE622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7748DA751AC7CB5A005AE622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7748DA851AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit App.app in Resources */,
+				7748DA811AC7CB5A005AE622 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7748DA821AC7CB5A005AE622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7748DA8D1AC7CB5A005AE622 /* Interface.storyboard in Resources */,
+				7748DA8F1AC7CB5A005AE622 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7748DA4A1AC7CB52005AE622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7748DA561AC7CB52005AE622 /* ViewController.swift in Sources */,
+				7748DA541AC7CB52005AE622 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7748DA5F1AC7CB52005AE622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7748DA6A1AC7CB52005AE622 /* TimesTablesWatchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7748DA731AC7CB5A005AE622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7748DA7F1AC7CB5A005AE622 /* NotificationController.swift in Sources */,
+				7748DA7D1AC7CB5A005AE622 /* InterfaceController.swift in Sources */,
+				7748DA9B1AC7CC78005AE622 /* TimesTableRowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7748DA651AC7CB52005AE622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7748DA4D1AC7CB52005AE622 /* TimesTablesWatchApp */;
+			targetProxy = 7748DA641AC7CB52005AE622 /* PBXContainerItemProxy */;
+		};
+		7748DA871AC7CB5A005AE622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7748DA831AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit App */;
+			targetProxy = 7748DA861AC7CB5A005AE622 /* PBXContainerItemProxy */;
+		};
+		7748DA911AC7CB5A005AE622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7748DA761AC7CB5A005AE622 /* TimesTablesWatchApp WatchKit Extension */;
+			targetProxy = 7748DA901AC7CB5A005AE622 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7748DA571AC7CB52005AE622 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7748DA581AC7CB52005AE622 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7748DA5C1AC7CB52005AE622 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7748DA5D1AC7CB52005AE622 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		7748DA8B1AC7CB5A005AE622 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7748DA8C1AC7CB5A005AE622 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7748DA6B1AC7CB52005AE622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7748DA6C1AC7CB52005AE622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7748DA6E1AC7CB52005AE622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = TimesTablesWatchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7748DA6F1AC7CB52005AE622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = TimesTablesWatchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7748DA711AC7CB52005AE622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TimesTablesWatchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimesTablesWatchApp.app/TimesTablesWatchApp";
+			};
+			name = Debug;
+		};
+		7748DA721AC7CB52005AE622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TimesTablesWatchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimesTablesWatchApp.app/TimesTablesWatchApp";
+			};
+			name = Release;
+		};
+		7748DA941AC7CB5A005AE622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = TimesTablesWatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "TimesTablesWatchApp WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		7748DA951AC7CB5A005AE622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = TimesTablesWatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "TimesTablesWatchApp WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		7748DA971AC7CB5A005AE622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TimesTablesWatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7748DA981AC7CB5A005AE622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TimesTablesWatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7748DA491AC7CB52005AE622 /* Build configuration list for PBXProject "TimesTablesWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7748DA6B1AC7CB52005AE622 /* Debug */,
+				7748DA6C1AC7CB52005AE622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7748DA6D1AC7CB52005AE622 /* Build configuration list for PBXNativeTarget "TimesTablesWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7748DA6E1AC7CB52005AE622 /* Debug */,
+				7748DA6F1AC7CB52005AE622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7748DA701AC7CB52005AE622 /* Build configuration list for PBXNativeTarget "TimesTablesWatchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7748DA711AC7CB52005AE622 /* Debug */,
+				7748DA721AC7CB52005AE622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7748DA931AC7CB5A005AE622 /* Build configuration list for PBXNativeTarget "TimesTablesWatchApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7748DA941AC7CB5A005AE622 /* Debug */,
+				7748DA951AC7CB5A005AE622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7748DA961AC7CB5A005AE622 /* Build configuration list for PBXNativeTarget "TimesTablesWatchApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7748DA971AC7CB5A005AE622 /* Debug */,
+				7748DA981AC7CB5A005AE622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7748DA461AC7CB52005AE622 /* Project object */;
+}
